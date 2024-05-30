@@ -1,0 +1,28 @@
+.products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.swiper-cube .swiper-cube-shadow:before {
+  background-color: transparent !important;
+}
+
+.products-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 0;
+}
+
+.products-top h3 {
+  color: grey;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.products-top-h3 {
+  color: black !important;
+  border-bottom: 1px solid black;
+  font-weight: 500 !important;
+}

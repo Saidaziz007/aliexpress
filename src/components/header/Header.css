@@ -1,0 +1,126 @@
+.header {
+  padding-top: 20px;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: -15px;
+  z-index: 20;
+}
+
+.nav-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fe2722;
+  border-radius: 10px;
+}
+
+.nav-logo {
+  width: 20%;
+}
+
+.nav-logo img {
+  width: 100%;
+  height: 70px;
+  object-fit: cover;
+  padding: 10px 50px 0px 0;
+}
+
+.nav-info {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.nav-catalog,
+.nav-orders,
+.nav-cart,
+.nav-login {
+  background-color: #e81711;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 7px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-catalog svg,
+.nav-orders svg,
+.nav-cart svg,
+.nav-login svg {
+  font-size: 20px;
+}
+
+.nav-login svg {
+  color: yellow;
+  font-size: 20px;
+}
+
+.nav-catalog p,
+.nav-orders p,
+.nav-cart p,
+.nav-login p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.nav-input {
+  position: relative;
+  width: 60%;
+}
+
+.nav-input input {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.nav-input button {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  bottom: 5px;
+  padding: 0 15px;
+  border: none;
+  background-color: #ccff66;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.nav-search {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  max-height: 300px;
+  padding: 10px;
+  list-style: none;
+  overflow-y: scroll;
+}
+
+.nav-search li {
+  padding: 5px 0;
+}
+
+.nav-result {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-result img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-info a {
+  text-decoration: none;
+}
